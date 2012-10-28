@@ -151,8 +151,3 @@ LOGGING = {
 REST_FRAMEWORK = {
     'PAGINATE_BY': 10
 }
-
-import os
-if os.environ.get('HEROKU'):  # heroku config:set HEROKU=1
-    import dj_database_url
-    DATABASES['default'] = dj_database_url.config()
