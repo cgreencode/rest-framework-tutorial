@@ -1,8 +1,10 @@
+# Database content will be handled by fixtures
 *.db
+
+# These are normally defined globally
 *.pyc
 *~
 .*
-env
 
 # Accept these files in the repository
 !.gitignore
